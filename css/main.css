@@ -11,3 +11,43 @@ body {
 }
 
 /* Header */
+header {
+  padding: 20px 0;
+}
+#logo img {
+  width: 175px;
+  height: auto;
+}
+header div ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.mid-menu {
+  line-height: 32px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.right-displ {
+  text-align: right;
+}
+header ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+header ul li a:link {
+  text-decoration: none;
+}
+header ul li a:hover {
+  color: #0087f5;
+}
+#button-blue {
+  padding: 5px 10px;
+  color: #0087f5;
+  border: solid 1px #0087f5;
+  border-radius: 4px;
+}
+#button-blue:hover {
+  color: white;
+  background-color: #0087f5;
+  transition: all 0.2s ease-in-out;
+}
