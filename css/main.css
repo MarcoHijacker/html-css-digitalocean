@@ -51,3 +51,23 @@ header ul li a:hover {
   background-color: #0087f5;
   transition: all 0.2s ease-in-out;
 }
+.hamburger {
+  display: none;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #0087f5;
+}
+.hamburger a {
+  text-decoration: none;
+}
+
+/* Media Query Area */
+
+@media all and (max-width:1199px) {
+  .mid-menu > ul {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
