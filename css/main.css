@@ -1,6 +1,7 @@
 /* Custom CSS Digital Ocean Template */
 
 /* Generali */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
 }
 
 /* Header */
+
 header {
   padding: 15px 15px 0;
   position: fixed;
@@ -69,6 +71,7 @@ header ul li a:hover {
 }
 
 /* Main */
+
 /* Sezione Jumbotron */
 #jumbotron {
   background-image: url("../img/jumbo.svg");
@@ -100,6 +103,7 @@ header ul li a:hover {
 .jumbo-title {
   font-weight: 900px;
   font-size: 40px;
+  text-shadow: white 1px 1px 1px;
 }
 .jumbo-title-form {
   color: black;
@@ -125,6 +129,33 @@ header ul li a:hover {
   text-align: center;
 }
 
+/* Sezione Partners */
+#partners {
+  min-height: 200px;
+  background-color: #f3f5f9;
+  padding: 50px;
+}
+.title-partners {
+  font-size: 12px;
+  color: #647490;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.subtitle-partners {
+  font-size: 12px;
+  color: #0087f5;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.box-img {
+  text-align: center;
+}
+.subtitle-partners a {
+  text-decoration: none;
+  color: inherit;
+}
 /* Media Query Area */
 
 @media all and (max-width:1199px) {
