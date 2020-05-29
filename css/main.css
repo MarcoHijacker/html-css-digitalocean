@@ -12,7 +12,14 @@ body {
 
 /* Header */
 header {
-  padding: 20px 0;
+  padding: 15px 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 999;
+  background-color: white;
 }
 #logo img {
   width: 175px;
@@ -23,7 +30,7 @@ header div ul li {
   margin-right: 15px;
 }
 .mid-menu {
-  line-height: 32px;
+  line-height: 35px;
   font-size: 12px;
   font-weight: normal;
 }
@@ -61,6 +68,63 @@ header ul li a:hover {
   text-decoration: none;
 }
 
+/* Main */
+/* Sezione Jumbotron */
+#jumbotron {
+  background-image: url("../img/jumbo.svg");
+  background-size: cover;
+  min-height: 450px;
+  margin-top: 65px;
+}
+.butt-create-color {
+  background-color: #0087f5;
+}
+.butt-google-color {
+  background-color: white;
+  color: grey;
+}
+.form-jumbo {
+  background-color: white;
+  border-radius: 5px;
+}
+.form-jumbo, .jumbo-left {
+  margin: 50px 0;
+  padding: 20px 20px 30px;
+}
+.form-jumbo .row > aside {
+  width: 100%;
+}
+.jumbo-left {
+  color: white;
+}
+.jumbo-title {
+  font-weight: 900px;
+  font-size: 40px;
+}
+.jumbo-title-form {
+  color: black;
+  font-weight: 900px;
+  text-align: center;
+}
+.jumbo-subtitle-form {
+  font-weight: 900px;
+  color: #0087f5;
+  text-align: center;
+  margin-top: 5px;
+}
+.form-group button {
+  position: relative;
+}
+.form-group button img {
+  position: absolute;
+  left: 5%;
+  top: 27%;
+}
+.terms-cond {
+  margin-top: 10px;
+  text-align: center;
+}
+
 /* Media Query Area */
 
 @media all and (max-width:1199px) {
@@ -69,5 +133,10 @@ header ul li a:hover {
   }
   .hamburger {
     display: block;
+  }
+}
+@media all and (max-width:991px) {
+  .jumbo-left {
+    margin-bottom: 0;
   }
 }
