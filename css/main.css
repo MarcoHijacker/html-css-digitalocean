@@ -167,7 +167,7 @@ header ul li a:hover {
   font-weight: 600;
   color: #031c4e;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 .deploy-subtitle {
@@ -205,6 +205,55 @@ header ul li a:hover {
 .spacing-sx, .spacing-dx {
   margin-bottom: 40px;
 }
+
+/* Sezione Designed */
+
+#designed {
+  min-height: 300px;
+  background-color: #f3f5f9;
+}
+.img-designed {
+  text-align: center;
+}
+.img-designed img {
+  width: 500px;
+  height: auto;
+}
+.img-designed:after {
+  content: ">";
+  font-size: 40px;
+  font-weight: 600;
+  color: #031c4e;
+  padding-left: 20px;
+}
+.img-designed:before {
+  content: "<";
+  font-size: 40px;
+  font-weight: 600;
+  color: #031c4e;
+  padding-right: 20px;
+}
+.sub-image {
+  text-align: center;
+  font-size: 12px;
+  color: #031c4e;
+  margin-top: 10px;
+}
+.indicators {
+  text-align: center;
+  font-size: 10px;
+  color: #0087f5;
+  margin: 7px 0;
+  margin-bottom: 40px;
+}
+.indicators a i {
+  margin: 0 2px;
+}
+.indicators a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Media Query Area */
 
 @media all and (max-width:1199px) {
