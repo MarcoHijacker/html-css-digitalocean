@@ -73,6 +73,7 @@ header ul li a:hover {
 /* Main */
 
 /* Sezione Jumbotron */
+
 #jumbotron {
   background-image: url("../img/jumbo.svg");
   background-size: cover;
@@ -130,6 +131,7 @@ header ul li a:hover {
 }
 
 /* Sezione Partners */
+
 #partners {
   min-height: 200px;
   background-color: #f3f5f9;
@@ -175,6 +177,7 @@ header ul li a:hover {
   color: #647490;
   text-align: center;
   margin-bottom: 30px;
+  padding: 0 15px;
 }
 .grill-logo {
   text-align: left;
@@ -254,21 +257,109 @@ header ul li a:hover {
   color: inherit;
 }
 
+/* Sezione Features */
+
+#features {
+  min-height: 300px;
+}
+.left-pl {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+/* Sezione Servers */
+
+#servers {
+  background: rgb(14,8,130);
+  background: linear-gradient(0deg, rgba(14,8,130,1) 0%, rgba(0,43,153,1) 50%, rgba(0,43,153,1) 100%);
+}
+.servers-title {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.srv {
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+  padding: 10px 15px;
+}
+.loc {
+  color: lightgrey;
+  font-weight: 600;
+  font-size: 11px;
+  padding: 10px 15px;
+}
+.test {
+  color: cyan;
+  font-weight: 600;
+  font-size: 11px;
+  padding: 10px 5px;
+  padding-left: 300px;
+}
+.test a {
+  text-decoration: none;
+  color: inherit;
+}
+.servers-table table tr {
+  border-bottom: solid 1px lightgrey;
+}
+.servers-table table tr:last-child {
+  border: none;
+}
+.servers-table {
+  margin-bottom: 50px;
+}
+
 /* Media Query Area */
 
-@media all and (max-width:1199px) {
+/* MD Screens */
+
+@media all and (max-width:1199px) and (min-width:992px) {
   .mid-menu > ul {
     display: none;
   }
   .hamburger {
     display: block;
   }
+  .servers-table table {
+    width: 100%;
+    text-align: center;
+  }
 }
+/* XS Screens */
+
 @media all and (max-width:991px) {
+  .mid-menu > ul {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
   .jumbo-left {
     margin-bottom: 0;
   }
   .spacing-sx {
     margin-bottom: 0;
+  }
+  .img-designed:before, .img-designed:after {
+    content: "";
+  }
+  .grill-logo, .grill-title, .grill-par {
+    margin: 10px 0;
+    padding-left: 30px;
+  }
+  .scaletta ul {
+    margin-left: 20px;
+  }
+  .left-pl {
+    padding-left: 30px;
+  }
+  .servers-table table {
+    width: 100%;
+    text-align: center;
   }
 }
