@@ -314,6 +314,49 @@ header ul li a:hover {
   margin-bottom: 50px;
 }
 
+/* Sezione Development */
+
+#development {
+  background-color: #f3f5f9;
+}
+.form-development {
+  background-color: white;
+  border-radius: 5px;
+  padding: 50px 20px;
+  margin-top: 40px;
+}
+.box-dev-img {
+  text-align: center;
+}
+.box-dev-img img {
+  width: 200px;
+  height: auto;
+}
+.development-par {
+  margin: 20px 0;
+}
+.development-sign {
+  font-weight: 600;
+  font-size: 12px;
+  color: #031c4e;
+  text-align: center;
+}
+.development-subsign {
+  font-size: 12px;
+  color: #031c4e;
+  text-align: center;
+}
+.dev-arrow {
+  font-size: 40px;
+  font-weight: 600;
+  color: #031c4e;
+  line-height: 400px;
+}
+.left-arrow {
+  text-align: right;
+}
+
+
 /* Media Query Area */
 
 /* MD Screens */
@@ -361,5 +404,8 @@ header ul li a:hover {
   .servers-table table {
     width: 100%;
     text-align: center;
+  }
+  .dev-arrow {
+    display: none;
   }
 }
