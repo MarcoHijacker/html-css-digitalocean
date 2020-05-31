@@ -356,6 +356,35 @@ header ul li a:hover {
   text-align: right;
 }
 
+/* Sezione Getstarted */
+
+#getstarted {
+  min-height: 200px;
+  background: rgb(14,8,130);
+  background: linear-gradient(0deg, rgba(14,8,130,1) 0%, rgba(0,43,153,1) 50%, rgba(0,43,153,1) 100%);
+}
+.getstarted-title {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  margin: 50px 40px 20px 40px;
+}
+.getstarted-button {
+  text-align: center;
+  color: #0087f5;
+  background-color: white;
+  border-radius: 5px;
+}
+#getstarted a {
+  text-decoration: none;
+  padding: 10px;
+  position: absolute;
+  left: 43%;
+}
+#getstarted a:hover {
+  background-color: #0087f5;
+  color: white;
+}
 
 /* Media Query Area */
 
@@ -371,6 +400,9 @@ header ul li a:hover {
   .servers-table table {
     width: 100%;
     text-align: center;
+  }
+  #getstarted a {
+    left: 42%;
   }
 }
 /* XS Screens */
@@ -407,5 +439,8 @@ header ul li a:hover {
   }
   .dev-arrow {
     display: none;
+  }
+  #getstarted a {
+    left: 39%;
   }
 }
