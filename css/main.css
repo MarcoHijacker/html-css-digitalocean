@@ -386,6 +386,75 @@ header ul li a:hover {
   color: white;
 }
 
+/* Footer */
+
+/* Sezione Footer */
+
+#footer-area {
+  background-color: #021d4b;
+}
+.block-foot {
+  margin-top: 30px;
+}
+.block-foot, .subtitle-foot {
+  margin-bottom: 10px;
+}
+.title-foot {
+  color: #8c97a9;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+.subtitle-foot {
+  color: #576784;
+  font-size: 12px;
+}
+.social-foot a i {
+  font-size: 18px;
+  color: #8c97a9;
+  margin-right: 5px;
+}
+.footer-list {
+  color: #a5adbc;
+  list-style: none;
+  margin-top: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.footer-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer-list li:first-child {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.footer-list li {
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+footer {
+  position: relative;
+}
+.shark-lg {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  display: block;
+}
+.shark-md {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  display: none;
+}
+.shark-xs {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  display: none;
+}
+
 /* Media Query Area */
 
 /* MD Screens */
@@ -404,7 +473,20 @@ header ul li a:hover {
   #getstarted a {
     left: 42%;
   }
+  .footer-list {
+    margin-bottom: 0;
+  }
+  #footer-area {
+    padding-bottom: 30px;
+  }
+  .shark-md {
+    display: block;
+  }
+  .shark-xs, .shark-lg {
+    display: none;
+  }
 }
+
 /* XS Screens */
 
 @media all and (max-width:991px) {
@@ -442,5 +524,17 @@ header ul li a:hover {
   }
   #getstarted a {
     left: 39%;
+  }
+  .footer-list {
+    margin-bottom: 0;
+  }
+  #footer-area {
+    padding-bottom: 30px;
+  }
+  .shark-xs {
+    display: block;
+  }
+  .shark-md, .shark-lg {
+    display: none;
   }
 }
