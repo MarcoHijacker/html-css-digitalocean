@@ -35,6 +35,7 @@ header div ul li {
   line-height: 35px;
   font-size: 12px;
   font-weight: normal;
+  float: right;
 }
 .right-displ {
   text-align: right;
@@ -68,6 +69,18 @@ header ul li a:hover {
 }
 .hamburger a {
   text-decoration: none;
+}
+.dropdown-menu a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+}
+.dropdown-menu {
+  text-align: center;
+  left: -175%;
+}
+.onlymdxs {
+  display: none;
 }
 
 /* Main */
@@ -485,6 +498,9 @@ footer {
   .shark-xs, .shark-lg {
     display: none;
   }
+  .onlymdxs {
+    display: block;
+  }
 }
 
 /* XS Screens */
@@ -536,5 +552,8 @@ footer {
   }
   .shark-md, .shark-lg {
     display: none;
+  }
+  .onlymdxs {
+    display: block;
   }
 }
